@@ -1,0 +1,38 @@
+<!-- Program to perform addition of 2 numbers?
+	A S ANANTHAKRISHNAN
+	23MCA001
+	Date: 30/10/2023--><!DOCTYPE html>
+<html>
+<head>
+<style>
+h2 {
+font-size : 30px;
+color : green;
+font-weight : bold;
+text-decoration : underline;
+}
+</style>
+</head>
+
+<body>
+<center>
+<h2>Addition of Two numbers</h2>
+<br>
+<br>
+<p>Enter the  value of First Number: <input id="first"></p>
+<p>Enter the value of Second Number: <input id="second"></p>
+<button align="center" onclick="add()">Sum</button>
+<p id="sum"></p>
+<script>
+function add()
+{
+  var numOne, numTwo, sum;
+  numOne = parseInt(document.getElementById("first").value);
+  numTwo = parseInt(document.getElementById("second").value);
+  sum = numOne + numTwo;
+  document.getElementById("sum").innerHTML = sum;
+}
+</script>
+</center>
+</body>
+</html>

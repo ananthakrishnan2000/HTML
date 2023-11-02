@@ -1,0 +1,25 @@
+<!-- Change the color of a text on a button click
+	A S ANANTHAKRISHNAN
+	23MCA001
+	Date: 01/11/2023-->
+<html>
+<head>
+    <title>Change Text Color on Button Click</title>
+</head>
+<body>
+<center>
+    <p id="textToChange">india is my country,all indians are my brothers and sisters.</p>
+    <button onclick="changeTextColor()">CLICK</button>
+
+    <script>
+        function changeTextColor() {
+            // Get the element with the ID "textToChange"
+            var textElement = document.getElementById("textToChange");
+
+            // Change the text color to blue
+            textElement.style.color = "blue";
+        }
+    </script>
+</center>
+</body>
+</html>
